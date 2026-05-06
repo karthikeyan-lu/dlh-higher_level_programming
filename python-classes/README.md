@@ -1,66 +1,73 @@
-# Python More Data Structures – AI Academy (DLH)
+# Python Classes and Objects – AI Academy (DLH)
 
-This repository contains my exercises covering advanced Python data structures as part of the AI Academy course at DLH. It focuses on sets, dictionaries, and functional programming techniques.
+This repository contains my exercises on Python Classes and Object-Oriented Programming (OOP) as part of the AI Academy course at DLH. The project focuses on building and working with Python classes, private attributes, validation, properties, and object methods.
 
 ## 📘 Objective
 
-To deepen Python knowledge by learning:
+To strengthen Python OOP concepts by learning:
 
-- Advanced list operations
-- Set operations
-- Dictionary manipulation
-- Functional programming with map and lambda
-- Efficient data transformations
+- Creating classes and objects
+- Using private attributes
+- Attribute validation
+- Getter and setter methods
+- Properties with `@property`
+- Instance methods
+- Encapsulation and abstraction
 
 ## 🧩 Topics Covered
 
-### 📋 Lists & Transformations
+### 🏗️ Classes & Objects
 
-- Matrix operations
-- Search and replace
-- Unique element processing
+- Creating empty classes
+- Instantiating objects
+- Using constructors (`__init__`)
 
-### 🔗 Sets
+### 🔒 Encapsulation
 
-- Finding common elements
-- Symmetric differences
+- Private attributes (`__size`)
+- Name mangling
+- Controlled attribute access
 
-### 📚 Dictionaries
+### ✅ Validation
 
-- Counting keys
-- Sorting dictionaries
-- Updating and deleting entries
-- Finding maximum values
+- Type checking
+- Value checking
+- Raising exceptions (`TypeError`, `ValueError`)
 
-### ⚡ Functional Programming
+### ⚙️ Properties
 
-- Using `map()` and `lambda`
-- Transforming data without loops
+- Getter methods
+- Setter methods
+- Using `@property`
 
-### ⭐ Advanced
+### 📐 Square Operations
 
-- Weighted averages
-- Matrix transformations with `map`
-- Conditional deletion in dictionaries
+- Area calculation
+- Printing squares with `#`
+- Using coordinates and positions
 
 ## ⚙️ Key Concepts Used
 
-- lists
-- sets
-- dictionaries
+- classes
+- objects
+- methods
+- constructors
+- private attributes
+- encapsulation
+- abstraction
+- properties
 - loops
 - conditionals
-- `map()`
-- `lambda`
-- set operations (`&`, `^`)
-- dictionary methods
-- list comprehension
+- exceptions
+- tuples
 
 ## 🎯 Learning Outcome
 
 By completing this module, I am able to:
 
-- Use sets and dictionaries effectively
-- Apply functional programming techniques
-- Perform complex data transformations
-- Write optimized and readable Python code
+- Build and use Python classes effectively
+- Apply OOP principles in Python
+- Validate and protect object data
+- Use getters and setters properly
+- Implement reusable and maintainable code
+- Understand encapsulation and abstraction
