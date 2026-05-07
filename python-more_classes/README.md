@@ -1,32 +1,35 @@
-# Python Classes and Objects – AI Academy (DLH)
+# Python More Classes and Objects – AI Academy (DLH)
 
-This repository contains my exercises on Python Classes and Object-Oriented Programming (OOP) as part of the AI Academy course at DLH. The project focuses on building and working with Python classes, private attributes, validation, properties, and object methods.
+This repository contains my exercises on Python More Classes and Object-Oriented Programming (OOP) as part of the AI Academy course at DLH. The project focuses on building a Rectangle class step by step using Python OOP concepts such as class attributes, instance methods, special methods, static methods, and class methods.
 
 ## 📘 Objective
 
-To strengthen Python OOP concepts by learning:
+To strengthen advanced Python OOP concepts by learning:
 
-- Creating classes and objects
+- Creating and managing classes
 - Using private attributes
 - Attribute validation
 - Getter and setter methods
-- Properties with `@property`
-- Instance methods
-- Encapsulation and abstraction
+- String representation of objects
+- Class attributes
+- Static methods
+- Class methods
+- Object lifecycle management
 
 ## 🧩 Topics Covered
 
 ### 🏗️ Classes & Objects
 
-- Creating empty classes
+- Creating classes
 - Instantiating objects
 - Using constructors (`__init__`)
+- Managing instances
 
 ### 🔒 Encapsulation
 
-- Private attributes (`__size`)
-- Name mangling
+- Private attributes (`__width`, `__height`)
 - Controlled attribute access
+- Data hiding
 
 ### ✅ Validation
 
@@ -40,11 +43,30 @@ To strengthen Python OOP concepts by learning:
 - Setter methods
 - Using `@property`
 
-### 📐 Square Operations
+### 📐 Rectangle Operations
 
 - Area calculation
-- Printing squares with `#`
-- Using coordinates and positions
+- Perimeter calculation
+- Rectangle comparison
+- Creating square rectangles
+
+### 🖨️ Object Representation
+
+- `__str__`
+- `__repr__`
+- Custom print symbols
+
+### 🧮 Class Features
+
+- Class attributes
+- Counting instances
+- Static methods
+- Class methods
+
+### 🗑️ Object Lifecycle
+
+- Detecting instance deletion
+- Using `__del__`
 
 ## ⚙️ Key Concepts Used
 
@@ -56,18 +78,24 @@ To strengthen Python OOP concepts by learning:
 - encapsulation
 - abstraction
 - properties
+- class attributes
+- static methods
+- class methods
+- special methods
+- validation
+- exceptions
 - loops
 - conditionals
-- exceptions
-- tuples
 
 ## 🎯 Learning Outcome
 
 By completing this module, I am able to:
 
-- Build and use Python classes effectively
-- Apply OOP principles in Python
+- Build advanced Python classes effectively
+- Apply Object-Oriented Programming principles
 - Validate and protect object data
-- Use getters and setters properly
-- Implement reusable and maintainable code
-- Understand encapsulation and abstraction
+- Implement custom object representations
+- Use static and class methods correctly
+- Manage class and instance attributes
+- Understand object lifecycle behavior
+- Write reusable and maintainable Python code
