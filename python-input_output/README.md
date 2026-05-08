@@ -1,101 +1,98 @@
-# Python More Classes and Objects – AI Academy (DLH)
+# Python Input/Output – AI Academy (DLH)
 
-This repository contains my exercises on Python More Classes and Object-Oriented Programming (OOP) as part of the AI Academy course at DLH. The project focuses on building a Rectangle class step by step using Python OOP concepts such as class attributes, instance methods, special methods, static methods, and class methods.
+This repository contains my exercises on Python Input/Output as part of the AI Academy course at DLH. The project focuses on reading and writing files, working with JSON data, serialization, deserialization, and building simple object persistence mechanisms in Python.
 
 ## 📘 Objective
 
-To strengthen advanced Python OOP concepts by learning:
+To strengthen Python file handling and JSON concepts by learning:
 
-- Creating and managing classes
-- Using private attributes
-- Attribute validation
-- Getter and setter methods
-- String representation of objects
-- Class attributes
-- Static methods
-- Class methods
-- Object lifecycle management
+- Reading text files
+- Writing text files
+- Appending content to files
+- Converting Python objects to JSON strings
+- Converting JSON strings back to Python objects
+- Saving Python objects to JSON files
+- Loading Python objects from JSON files
+- Converting class instances to dictionaries
+- Serializing and deserializing class objects
+- Generating Pascal’s Triangle
 
 ## 🧩 Topics Covered
 
-### 🏗️ Classes & Objects
+### 📂 File Handling
 
-- Creating classes
-- Instantiating objects
-- Using constructors (`__init__`)
-- Managing instances
+- Opening files
+- Reading files
+- Writing files
+- Appending to files
+- Using the `with` statement
+- Working with UTF-8 text files
 
-### 🔒 Encapsulation
+### 🔄 JSON Serialization
 
-- Private attributes (`__width`, `__height`)
-- Controlled attribute access
-- Data hiding
+- Converting Python objects to JSON strings
+- Saving JSON data to files
+- Loading JSON data from files
+- Handling JSON-compatible data structures
 
-### ✅ Validation
+### 🧱 Object Serialization
 
-- Type checking
-- Value checking
-- Raising exceptions (`TypeError`, `ValueError`)
+- Converting class instances to dictionaries
+- Using `__dict__`
+- Filtering object attributes
+- Reloading object data from dictionaries
 
-### ⚙️ Properties
+### 👨‍🎓 Student Class
 
-- Getter methods
-- Setter methods
-- Using `@property`
+- Creating a `Student` class
+- Storing public attributes
+- Returning dictionary representations
+- Filtering selected attributes
+- Reloading object attributes from JSON data
 
-### 📐 Rectangle Operations
+### 🔺 Pascal’s Triangle
 
-- Area calculation
-- Perimeter calculation
-- Rectangle comparison
-- Creating square rectangles
-
-### 🖨️ Object Representation
-
-- `__str__`
-- `__repr__`
-- Custom print symbols
-
-### 🧮 Class Features
-
-- Class attributes
-- Counting instances
-- Static methods
-- Class methods
-
-### 🗑️ Object Lifecycle
-
-- Detecting instance deletion
-- Using `__del__`
+- Building lists of lists
+- Using loops and previous rows
+- Applying algorithmic thinking
+- Preparing for technical interviews
 
 ## ⚙️ Key Concepts Used
 
-- classes
-- objects
-- methods
-- constructors
-- private attributes
-- encapsulation
-- abstraction
-- properties
-- class attributes
-- static methods
-- class methods
-- special methods
-- validation
-- exceptions
+- file input/output
+- `with` statement
+- `open()`
+- read mode
+- write mode
+- append mode
+- JSON
+- serialization
+- deserialization
+- dictionaries
+- lists
+- strings
+- integers
+- booleans
+- class instances
+- `__dict__`
+- `setattr()`
 - loops
 - conditionals
+- exception handling
+- Pascal’s Triangle
 
 ## 🎯 Learning Outcome
 
 By completing this module, I am able to:
 
-- Build advanced Python classes effectively
-- Apply Object-Oriented Programming principles
-- Validate and protect object data
-- Implement custom object representations
-- Use static and class methods correctly
-- Manage class and instance attributes
-- Understand object lifecycle behavior
-- Write reusable and maintainable Python code
+- Read text files using Python
+- Write and append text to files
+- Use the `with` statement correctly
+- Convert Python objects into JSON format
+- Convert JSON strings back into Python objects
+- Save Python data structures into JSON files
+- Load Python data structures from JSON files
+- Convert class objects into dictionary representations
+- Rebuild object attributes from dictionary data
+- Understand basic serialization and deserialization
+- Solve Pascal’s Triangle using Python lists and loops
