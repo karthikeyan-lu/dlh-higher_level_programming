@@ -1,65 +1,84 @@
-# Python Basics – Printing & Strings
+# Python Hello World - AI Academy (DLH)
 
-This repository contains my exercises on **Python fundamentals** as part of the AI Academy course at DLH.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Level](https://img.shields.io/badge/Level-Beginner-brightgreen)
 
----
-
-## 📘 Objective
-
-To practice basic Python concepts including:
-
-* Printing output
-* Working with numbers (integers, floats)
-* String manipulation
-* Formatting using f-strings
-* Writing clean and concise scripts
+This project contains introductory Python exercises for printing, numbers, strings, formatting, slicing, and basic script structure.
 
 ---
 
-## 🧩 Tasks Covered
+## Objective
 
-### 🖨️ Printing
+To practice Python basics by learning:
 
-* `2-print.py` – Print a simple string
-* `3-print_number.py` – Print an integer with text
-* `4-print_float.py` – Print a float with precision
-
----
-
-### 🔤 String Manipulation
-
-* `5-print_string.py` – Repeat string and slice characters
-* `6-concat.py` – Concatenate strings
-* `7-edges.py` – Extract parts of a string
-* `8-concat_edges.py` – Build sentence from substrings
+- Printing output with `print()`
+- Formatting integers and floats
+- Repeating and slicing strings
+- Concatenating strings
+- Building strings from substrings
+- Running simple Python scripts
+- Exploring Python philosophy through The Zen of Python
 
 ---
 
-### 🧠 Special Script
+## Topics Covered
 
-* `9-easter_egg.py` – Print *The Zen of Python*
+### Printing and Formatting
+
+- Simple string output
+- Integer formatting
+- Float precision formatting
+- f-strings
+
+### String Manipulation
+
+- String repetition
+- String slicing
+- Concatenation
+- Extracting substrings
+
+### Python Basics
+
+- Script execution
+- Clean output formatting
+- Basic constraints and style practice
 
 ---
 
-## ⚙️ Key Concepts Used
+## Requirements
 
-```python id="y2h7ks"
-print()
-f-strings
-string slicing
-string concatenation
+- Python 3.x
+- Scripts should be executable where required
+- Scripts should follow task formatting constraints
+
+---
+
+## Files
+
+| File | Description |
+| --- | --- |
+| `2-print.py` | Prints a simple string |
+| `3-print_number.py` | Prints an integer with text |
+| `4-print_float.py` | Prints a float with precision |
+| `5-print_string.py` | Repeats and slices a string |
+| `6-concat.py` | Concatenates strings |
+| `7-edges.py` | Extracts parts of a string |
+| `8-concat_edges.py` | Builds a sentence from string slices |
+| `9-easter_egg.py` | Prints The Zen of Python |
+
+---
+
+## Usage
+
+Run a script:
+
+```bash
+python3 2-print.py
 ```
 
 ---
 
-## 🎯 Learning Outcome
+## Author
 
-By completing this module, I am able to:
-
-* Use `print()` effectively in Python
-* Format output using f-strings
-* Manipulate strings using slicing and concatenation
-* Follow constraints like line limits and no loops/conditions
-* Write clean and structured Python scripts
-
----
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg

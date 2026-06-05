@@ -1,101 +1,103 @@
-# Python More Classes and Objects – AI Academy (DLH)
+# Python More Classes and Objects - AI Academy (DLH)
 
-This repository contains my exercises on Python More Classes and Object-Oriented Programming (OOP) as part of the AI Academy course at DLH. The project focuses on building a Rectangle class step by step using Python OOP concepts such as class attributes, instance methods, special methods, static methods, and class methods.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![OOP](https://img.shields.io/badge/OOP-Advanced-purple)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Level](https://img.shields.io/badge/Level-Intermediate%20to%20Advanced-red)
 
-## 📘 Objective
+This project contains advanced Python OOP exercises built around a `Rectangle` class, class attributes, static methods, class methods, special methods, object lifecycle behavior, and the N queens algorithm.
 
-To strengthen advanced Python OOP concepts by learning:
+---
 
-- Creating and managing classes
-- Using private attributes
+## Objective
+
+To deepen Python object-oriented programming skills by learning:
+
+- Private instance attributes
 - Attribute validation
-- Getter and setter methods
-- String representation of objects
+- Properties
+- Area and perimeter methods
+- String and repr representations
+- Instance counting
 - Class attributes
 - Static methods
 - Class methods
-- Object lifecycle management
+- Object deletion hooks
+- Backtracking with the N queens problem
 
-## 🧩 Topics Covered
+---
 
-### 🏗️ Classes & Objects
+## Topics Covered
 
-- Creating classes
-- Instantiating objects
-- Using constructors (`__init__`)
-- Managing instances
+### Rectangle Class Design
 
-### 🔒 Encapsulation
-
-- Private attributes (`__width`, `__height`)
-- Controlled attribute access
-- Data hiding
-
-### ✅ Validation
-
-- Type checking
-- Value checking
-- Raising exceptions (`TypeError`, `ValueError`)
-
-### ⚙️ Properties
-
-- Getter methods
-- Setter methods
-- Using `@property`
-
-### 📐 Rectangle Operations
-
+- Width and height validation
 - Area calculation
 - Perimeter calculation
-- Rectangle comparison
-- Creating square rectangles
-
-### 🖨️ Object Representation
-
+- Custom print output
 - `__str__`
 - `__repr__`
-- Custom print symbols
+- `__del__`
 
-### 🧮 Class Features
+### Class-Level Behavior
 
 - Class attributes
-- Counting instances
-- Static methods
-- Class methods
+- Instance counters
+- Custom print symbols
+- Rectangle comparison
+- Square factory method
 
-### 🗑️ Object Lifecycle
+### Algorithmic Practice
 
-- Detecting instance deletion
-- Using `__del__`
+- N queens problem
+- Backtracking
+- Board validation
 
-## ⚙️ Key Concepts Used
+---
 
-- classes
-- objects
-- methods
-- constructors
-- private attributes
-- encapsulation
-- abstraction
-- properties
-- class attributes
-- static methods
-- class methods
-- special methods
-- validation
-- exceptions
-- loops
-- conditionals
+## Requirements
 
-## 🎯 Learning Outcome
+- Python 3.x
+- `pycodestyle`
+- Modules, classes, and methods should be documented where required
+- Class behavior should match the provided task main files
 
-By completing this module, I am able to:
+---
 
-- Build advanced Python classes effectively
-- Apply Object-Oriented Programming principles
-- Validate and protect object data
-- Implement custom object representations
-- Use static and class methods correctly
-- Manage class and instance attributes
-- Understand object lifecycle behavior
-- Write reusable and maintainable Python code
+## Files
+
+| File | Description |
+| --- | --- |
+| `0-rectangle.py` | Defines an empty `Rectangle` class |
+| `1-rectangle.py` | Adds private width and height attributes |
+| `2-rectangle.py` | Adds area and perimeter methods |
+| `3-rectangle.py` | Adds string representation with `#` |
+| `4-rectangle.py` | Adds `repr` support for recreation |
+| `5-rectangle.py` | Adds deletion message behavior |
+| `6-rectangle.py` | Adds instance counting |
+| `7-rectangle.py` | Adds custom print symbols |
+| `8-rectangle.py` | Adds rectangle comparison by area |
+| `9-rectangle.py` | Adds square factory method |
+| `101-nqueens.py` | Solves the N queens problem |
+
+---
+
+## Usage
+
+Run a rectangle task:
+
+```bash
+python3 9-main.py
+```
+
+Run the N queens solver:
+
+```bash
+python3 101-nqueens.py 4
+```
+
+---
+
+## Author
+
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg

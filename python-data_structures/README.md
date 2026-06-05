@@ -1,60 +1,102 @@
-# Python Data Structures – AI Academy (DLH)
+# Python Data Structures - AI Academy (DLH)
 
-This repository contains my exercises covering Python data structures as part of the AI Academy course at DLH. It focuses on lists, tuples, and basic data manipulation techniques.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-yellow)
 
-## 📘 Objective
+This project contains Python exercises for lists, tuples, matrix traversal, string filtering, and basic data manipulation.
+
+---
+
+## Objective
 
 To build a strong foundation in Python data structures by learning:
 
-- Working with lists and tuples
-- Indexing and slicing
-- List modification and copying
-- Matrix operations
-- String manipulation
-
-## 🧩 Topics Covered
-
-### 📋 Lists
-
-- Printing and accessing elements
-- Replacing and deleting elements
+- List indexing and element access
+- List replacement and deletion
+- Copying lists safely
 - Reversing lists
-- Working with copies of lists
-
-### 🔢 Tuples
-
-- Tuple manipulation
+- Printing matrices
+- Tuple operations
 - Returning multiple values
+- Filtering strings
+- Swapping variable values
 
-### 🧠 Data Processing
+---
 
-- Finding maximum values
-- Filtering elements (e.g., divisible by 2)
-- Matrix traversal and printing
+## Topics Covered
 
-### 🔄 Variable Handling
+### Lists
 
-- Swapping values between variables
+- Printing list elements
+- Accessing an element by index
+- Replacing elements
+- Creating modified copies
+- Reversing output
+- Deleting by index
 
-## ⚙️ Key Concepts Used
+### Tuples
 
-- lists
-- tuples
-- indexing
-- slicing
-- loops
-- `range()`
-- `len()`
-- `str.format()`
-- `del`
-- conditionals
-- return values
+- Tuple addition
+- Multiple return values
+- Value swapping
 
-## 🎯 Learning Outcome
+### Matrices and Data Processing
 
-By completing this module, I am able to:
+- Matrix printing
+- Maximum value search
+- Divisibility checks
+- String filtering
 
-- Work efficiently with lists and tuples
-- Manipulate and transform data structures
-- Handle edge cases safely
-- Write clean and structured Python code
+---
+
+## Requirements
+
+- Python 3.x
+- `pycodestyle`
+- Function files should be importable by the provided main files
+- Functions should handle edge cases where required
+
+---
+
+## Files
+
+| File | Description |
+| --- | --- |
+| `0-print_list_integer.py` | Prints all integers in a list |
+| `1-element_at.py` | Retrieves an element from a list safely |
+| `2-replace_in_list.py` | Replaces an element at a specific index |
+| `3-print_reversed_list_integer.py` | Prints list integers in reverse |
+| `4-new_in_list.py` | Replaces an element in a copy of a list |
+| `5-no_c.py` | Removes `c` and `C` from a string |
+| `6-print_matrix_integer.py` | Prints a matrix of integers |
+| `7-add_tuple.py` | Adds two tuples element-wise |
+| `8-multiple_returns.py` | Returns string length and first character |
+| `9-max_integer.py` | Finds the maximum integer in a list |
+| `10-divisible_by_2.py` | Finds elements divisible by 2 |
+| `11-delete_at.py` | Deletes an item at a specific index |
+| `12-switch.py` | Switches the values of two variables |
+
+---
+
+## Usage
+
+Run a task with its main file:
+
+```bash
+python3 0-main.py
+```
+
+Import a function:
+
+```python
+element_at = __import__('1-element_at').element_at
+
+print(element_at([1, 2, 3], 1))
+```
+
+---
+
+## Author
+
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg

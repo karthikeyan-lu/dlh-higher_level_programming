@@ -1,145 +1,113 @@
-# Python Input/Output – AI Academy (DLH)
+# Python Input/Output - AI Academy (DLH)
 
-This repository contains my exercises on Python Input/Output as part of the AI Academy course at DLH. The project focuses on reading and writing files, working with JSON data, serialization, deserialization, object persistence, and algorithmic problem-solving in Python.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![JSON](https://img.shields.io/badge/JSON-Serialization-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Level](https://img.shields.io/badge/Level-Intermediate-orange)
 
-## 📘 Objective
-
-To strengthen Python Input/Output and JSON concepts by learning:
-
-- Reading text files
-- Writing text files
-- Appending content to files
-- Working with UTF-8 encoded files
-- JSON serialization and deserialization
-- Saving Python objects into JSON files
-- Loading Python objects from JSON files
-- Converting class instances into dictionaries
-- Reloading object attributes from dictionaries
-- Building reusable serialization methods
-- Solving Pascal’s Triangle algorithmically
+This project contains Python exercises for file handling, JSON serialization, object serialization, dynamic object reloading, and Pascal's Triangle.
 
 ---
 
-# 🧩 Topics Covered
+## Objective
 
-## 📂 File Handling
+To strengthen Python input/output skills by learning:
+
+- Reading text files
+- Writing and appending text files
+- Working with UTF-8 encoding
+- Converting objects to JSON strings
+- Loading JSON strings into Python objects
+- Saving and loading JSON files
+- Converting class instances into dictionaries
+- Filtering object attributes
+- Reloading object data from dictionaries
+- Generating Pascal's Triangle
+
+---
+
+## Topics Covered
+
+### File Handling
 
 - Reading files
 - Writing files
-- Appending text to files
-- Using the `with` statement
-- Working with UTF-8 text files
-- Managing file operations safely
+- Appending text
+- Using `with`
+- Managing file paths safely
 
----
+### JSON Serialization
 
-## 🔄 JSON Serialization
+- `json.dumps()`
+- `json.loads()`
+- `json.dump()`
+- `json.load()`
+- Saving Python objects to files
+- Loading Python objects from files
 
-- Converting Python objects into JSON strings
-- Converting JSON strings into Python objects
-- Saving JSON data into files
-- Loading JSON data from files
-- Using `json.dumps()`
-- Using `json.loads()`
-- Using `json.dump()`
-- Using `json.load()`
+### Object Serialization
 
----
-
-## 🧱 Object Serialization
-
-- Converting class instances into dictionaries
-- Using `__dict__`
-- Filtering selected attributes
-- Reloading object data dynamically
-- Rebuilding objects from serialized data
-
----
-
-## 👨‍🎓 Student Class Serialization
-
-- Creating a `Student` class
-- Storing public attributes
-- Returning dictionary representations
-- Filtering attributes using lists
-- Updating object attributes dynamically
-
----
-
-## 🔺 Pascal’s Triangle
-
-- Building Pascal’s Triangle
-- Working with lists of lists
-- Using nested loops
-- Applying algorithmic thinking
-- Technical interview preparation
-
----
-
-# ⚙️ Key Concepts Used
-
-- file input/output
-- JSON
-- serialization
-- deserialization
-- dictionaries
-- lists
-- strings
-- integers
-- booleans
-- class instances
 - `__dict__`
+- Attribute filtering
 - `setattr()`
-- loops
-- nested loops
-- conditionals
-- `with` statement
-- UTF-8 encoding
-- object persistence
-- algorithmic problem-solving
+- Object reload methods
+- Student class serialization
+
+### Algorithms
+
+- Pascal's Triangle
+- Nested list construction
 
 ---
 
-# 📁 Project Structure
+## Requirements
 
-```text
-python-input_output/
-│
-├── 0-read_file.py
-├── 1-write_file.py
-├── 2-append_write.py
-├── 3-to_json_string.py
-├── 4-from_json_string.py
-├── 5-save_to_json_file.py
-├── 6-load_from_json_file.py
-├── 7-add_item.py
-├── 8-class_to_json.py
-├── 9-student.py
-├── 10-student.py
-├── 11-student.py
-├── 12-pascal_triangle.py
-│
-├── 0-main.py
-├── 1-main.py
-├── 2-main.py
-├── 3-main.py
-├── 4-main.py
-├── 5-main.py
-├── 6-main.py
-├── 8-main.py
-├── 8-main_2.py
-├── 9-main.py
-├── 10-main.py
-├── 11-main.py
-├── 12-main.py
-│
-├── my_file_0.txt
-├── my_first_file.txt
-├── file_append.txt
-├── my_list.json
-├── my_dict.json
-├── my_fake.json
-├── add_item.json
-├── student.json
-│
-└── README.md
+- Python 3.x
+- `pycodestyle`
+- UTF-8 file handling
+- Modules, classes, and functions should be documented where required
+
+---
+
+## Files
+
+| File | Description |
+| --- | --- |
+| `0-read_file.py` | Reads and prints a text file |
+| `1-write_file.py` | Writes text to a file and returns character count |
+| `2-append_write.py` | Appends text to a file and returns character count |
+| `3-to_json_string.py` | Converts an object to a JSON string |
+| `4-from_json_string.py` | Converts a JSON string to a Python object |
+| `5-save_to_json_file.py` | Saves an object to a JSON file |
+| `6-load_from_json_file.py` | Loads an object from a JSON file |
+| `7-add_item.py` | Adds command-line arguments to a JSON list file |
+| `8-class_to_json.py` | Returns a dictionary description of an object |
+| `9-student.py` | Defines a basic `Student` class with JSON export |
+| `10-student.py` | Adds filtered attribute export to `Student` |
+| `11-student.py` | Adds JSON reload support to `Student` |
+| `12-pascal_triangle.py` | Generates Pascal's Triangle |
+| `100-append_after.py` | Inserts text after lines containing a search string |
+| `101-generator.py` | Streams and aggregates user data with generators |
+| `101-stats.py` | Reads stdin logs and computes metrics |
+
+---
+
+## Usage
+
+Run a task with its main file:
+
+```bash
+python3 0-main.py
+```
+
+Run the JSON argument task:
+
+```bash
+python3 7-add_item.py Best School
+```
+
+---
+
+## Author
+
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg

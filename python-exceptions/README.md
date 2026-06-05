@@ -1,58 +1,97 @@
-# Python Exceptions – AI Academy (DLH)
+# Python Exceptions - AI Academy (DLH)
 
-This repository contains my exercises covering Python exception handling and advanced error management as part of the AI Academy course at DLH. It focuses on writing robust programs that handle runtime errors gracefully.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Level](https://img.shields.io/badge/Level-Intermediate-orange)
 
-## 📘 Objective
+This project contains Python exercises for exception handling, safe output, defensive programming, error reporting, and raising exceptions.
 
-To build a strong understanding of exception handling in Python by learning:
+---
 
-- Safe execution of code
-- Error handling using try/except/finally
+## Objective
+
+To write more robust Python programs by learning:
+
+- Safe list and integer printing
+- `try`, `except`, and `finally`
+- Safe division patterns
+- Element-wise list division
 - Raising exceptions manually
-- Working with stderr
-- Writing resilient and fault-tolerant programs
+- Writing errors to `stderr`
+- Safely executing callback functions
+- Translating bytecode-style logic
 
-## 🧩 Topics Covered
+---
 
-### 🛡️ Exception Handling Basics
+## Topics Covered
 
-- `0-safe_print_list.py` – Safely print elements from a list
-- `1-safe_print_integer.py` – Safely print integers
-- `2-safe_print_list_integers.py` – Print only integers from a list
+### Safe Printing
 
-### ⚙️ Try / Except / Finally
+- Printing list elements safely
+- Printing integers safely
+- Printing only integer values from mixed lists
 
-- `3-safe_print_division.py` – Safe division with debug output
-- `4-list_division.py` – Divide two lists element by element safely
+### Exception Flow
 
-### 🚨 Raising Exceptions
+- `try`
+- `except`
+- `finally`
+- Safe division
+- Returning result counts
 
-- `5-raise_exception.py` – Raise a TypeError
-- `6-raise_exception_msg.py` – Raise a NameError with a message
+### Raising and Reporting Errors
 
-### ⭐ Advanced
+- Raising `TypeError`
+- Raising `NameError`
+- Printing errors to `stderr`
+- Safe function execution
 
-- `100-safe_print_integer_err.py` – Print integer with error to stderr
-- `101-safe_function.py` – Execute a function safely
-- `102-magic_calculation.py` – Recreate logic from Python bytecode
+---
 
-## ⚙️ Key Concepts Used
+## Requirements
 
-- `try / except / finally`
-- exception handling
-- `TypeError`, `ValueError`, `ZeroDivisionError`, `IndexError`
-- `raise`
-- stderr handling (`__import__('sys').stderr`)
-- function pointers
-- safe execution patterns
+- Python 3.x
+- `pycodestyle`
+- Function files should be importable by the provided main files
+- Exceptions should be handled only where required by the task
 
-## 🎯 Learning Outcome
+---
 
-By completing this module, I am able to:
+## Files
 
-- Handle runtime errors effectively
-- Write safe and robust Python code
-- Use try/except/finally correctly
-- Raise and manage custom exceptions
-- Work with stderr for error reporting
-- Understand and translate Python bytecode logic
+| File | Description |
+| --- | --- |
+| `0-safe_print_list.py` | Safely prints a requested number of list elements |
+| `1-safe_print_integer.py` | Safely prints an integer |
+| `2-safe_print_list_integers.py` | Prints only integers from a list |
+| `3-safe_print_division.py` | Divides two values and always prints the result |
+| `4-list_division.py` | Divides two lists element by element |
+| `5-raise_exception.py` | Raises a `TypeError` |
+| `6-raise_exception_msg.py` | Raises a `NameError` with a message |
+| `100-safe_print_integer_err.py` | Prints integer errors to `stderr` |
+| `101-safe_function.py` | Executes a function safely |
+| `102-magic_calculation.py` | Recreates logic from Python bytecode |
+
+---
+
+## Usage
+
+Run a task with its main file:
+
+```bash
+python3 0-main.py
+```
+
+Import a function:
+
+```python
+safe_print_integer = __import__('1-safe_print_integer').safe_print_integer
+
+safe_print_integer(89)
+```
+
+---
+
+## Author
+
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg

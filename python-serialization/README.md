@@ -1,323 +1,102 @@
-# Python Serialization – AI Academy (DLH)
+# Python Serialization - AI Academy (DLH)
 
-This repository contains my exercises on Python Serialization as part of the AI Academy course at DLH. The project focuses on serialization and deserialization techniques using JSON, Pickle, CSV, and XML in Python.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![JSON](https://img.shields.io/badge/JSON-Serialization-green)
+![CSV](https://img.shields.io/badge/CSV-Data-blue)
+![XML](https://img.shields.io/badge/XML-Data-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📘 Objective
-
-To strengthen Python serialization concepts by learning:
-
-* JSON serialization and deserialization
-* Saving Python dictionaries into JSON files
-* Loading JSON data from files
-* Serializing custom Python objects using Pickle
-* Deserializing Pickle objects
-* Reading CSV files
-* Converting CSV data into JSON format
-* XML serialization
-* XML deserialization
-* File handling in Python
-* Exception handling during serialization
+This project contains Python serialization exercises using JSON, Pickle, CSV, XML, and HTTP-based data transfer.
 
 ---
 
-# 🧩 Topics Covered
+## Objective
 
-## 📂 JSON Serialization
+To practice serialization and data exchange by learning:
 
-* Serializing Python dictionaries
-* Deserializing JSON files
-* Writing JSON files
-* Reading JSON files
-* Using `json.dump()`
-* Using `json.load()`
-
----
-
-## 🧱 Pickle Serialization
-
-* Serializing custom Python objects
-* Deserializing custom class instances
-* Working with binary files
-* Using `pickle.dump()`
-* Using `pickle.load()`
-* Exception handling for corrupted files
+- JSON serialization and deserialization
+- Saving dictionaries to JSON files
+- Loading JSON data from files
+- Serializing custom objects with Pickle
+- Deserializing Pickle objects safely
+- Reading CSV files
+- Converting CSV data to JSON
+- Creating and parsing XML data
+- Sending serialized data over HTTP
 
 ---
 
-## 📊 CSV to JSON Conversion
+## Topics Covered
 
-* Reading CSV files
-* Using `csv.DictReader`
-* Converting CSV rows into dictionaries
-* Serializing CSV data into JSON format
-* Writing formatted JSON files
+### JSON
 
----
+- `json.dump()`
+- `json.load()`
+- Dictionary serialization
+- JSON file persistence
 
-## 🌐 XML Serialization
+### Pickle
 
-* Creating XML elements
-* Building XML trees
-* Writing XML files
-* Parsing XML files
-* Reconstructing Python dictionaries from XML
-* Using `xml.etree.ElementTree`
+- Custom object serialization
+- Binary file handling
+- Safe deserialization patterns
 
----
+### CSV and XML
 
-# ⚙️ Key Concepts Used
+- `csv.DictReader`
+- CSV to JSON conversion
+- XML element creation
+- XML parsing with `xml.etree.ElementTree`
 
-* file input/output
-* JSON
-* XML
-* Pickle
-* serialization
-* deserialization
-* dictionaries
-* lists
-* strings
-* integers
-* booleans
-* custom classes
-* binary files
-* CSV
-* exception handling
-* `json.dump()`
-* `json.load()`
-* `pickle.dump()`
-* `pickle.load()`
-* `csv.DictReader`
-* `ElementTree`
-* loops
-* conditionals
-* `with` statement
-* UTF-8 encoding
+### Network Serialization
+
+- JSON payloads
+- HTTP POST requests
+- API-style data transfer
 
 ---
 
-# 📁 Project Structure
+## Requirements
 
-```text
-python-serialization/
-│
-├── task_00_basic_serialization.py
-├── task_01_pickle.py
-├── task_02_csv.py
-├── task_03_xml.py
-│
-├── 0-main.py
-├── 1-main.py
-├── main_02_csv.py
-├── main_03_xml.py
-│
-├── data.csv
-├── data.json
-├── data.xml
-├── object.pkl
-│
-└── README.md
+- Python 3.x
+- JSON, Pickle, CSV, and XML standard libraries
+- `requests` for network serialization tasks
+- Input and output files provided in the project directory
+
+---
+
+## Files
+
+| File | Description |
+| --- | --- |
+| `task_00_basic_serialization.py` | Serializes dictionaries to JSON and loads them back |
+| `task_01_pickle.py` | Serializes and deserializes a custom object with Pickle |
+| `task_02_csv.py` | Converts CSV data into JSON format |
+| `task_03_xml.py` | Serializes dictionaries to XML and loads XML back |
+| `task_04_net.py` | Sends serialized data over HTTP |
+| `data.csv` | Sample CSV input |
+| `data.json` | Sample JSON data |
+| `data.xml` | Sample XML data |
+| `object.pkl` | Pickle output artifact |
+
+---
+
+## Usage
+
+Run a serialization task:
+
+```bash
+python3 0-main.py
+```
+
+Run the CSV conversion example:
+
+```bash
+python3 main_02_csv.py
 ```
 
 ---
 
-# 🚀 Tasks Overview
+## Author
 
-## 0. Basic Serialization
-
-### File
-
-`task_00_basic_serialization.py`
-
-### Description
-
-This task serializes a Python dictionary into a JSON file and deserializes the JSON file back into a Python dictionary.
-
-### Functions
-
-#### `serialize_and_save_to_file(data, filename)`
-
-* Serializes a dictionary
-* Saves data into a JSON file
-
-#### `load_and_deserialize(filename)`
-
-* Reads JSON data from a file
-* Returns a Python dictionary
-
-### Example Output
-
-```python
-{'name': 'John Doe', 'age': 30, 'city': 'New York'}
-```
-
----
-
-## 1. Pickling Custom Classes
-
-### File
-
-`task_01_pickle.py`
-
-### Description
-
-This task demonstrates serialization and deserialization of custom Python objects using the `pickle` module.
-
-### Class
-
-#### `CustomObject`
-
-### Attributes
-
-* `name`
-* `age`
-* `is_student`
-
-### Methods
-
-#### `display()`
-
-Displays object information.
-
-#### `serialize(filename)`
-
-* Serializes the object
-* Saves it into a `.pkl` file
-
-#### `deserialize(filename)`
-
-* Loads serialized object data
-* Returns a `CustomObject` instance
-
-### Example Output
-
-```text
-Name: John
-Age: 25
-Is Student: True
-```
-
----
-
-## 2. Converting CSV Data to JSON Format
-
-### File
-
-`task_02_csv.py`
-
-### Description
-
-This task reads CSV data and converts it into JSON format.
-
-### Function
-
-#### `convert_csv_to_json(filename)`
-
-* Reads CSV data
-* Converts rows into dictionaries
-* Writes JSON data into `data.json`
-* Returns `True` if successful
-* Returns `False` if an error occurs
-
-### Example CSV Data
-
-```csv
-name,age,city
-John,28,New York
-Alice,24,Los Angeles
-Bob,22,Chicago
-Eve,30,San Francisco
-```
-
-### Example JSON Output
-
-```json
-[
-    {
-        "name": "John",
-        "age": "28",
-        "city": "New York"
-    },
-    {
-        "name": "Alice",
-        "age": "24",
-        "city": "Los Angeles"
-    }
-]
-```
-
----
-
-## 3. Serializing and Deserializing with XML
-
-### File
-
-`task_03_xml.py`
-
-### Description
-
-This task demonstrates serialization and deserialization using XML format.
-
-### Functions
-
-#### `serialize_to_xml(dictionary, filename)`
-
-* Serializes dictionary data into XML
-* Saves XML data into a file
-
-#### `deserialize_from_xml(filename)`
-
-* Reads XML data
-* Reconstructs Python dictionary
-
-### Example XML Output
-
-```xml
-<data>
-    <name>John</name>
-    <age>28</age>
-    <city>New York</city>
-</data>
-```
-
-### Example Dictionary Output
-
-```python
-{'name': 'John', 'age': '28', 'city': 'New York'}
-```
-
----
-
-# 🎯 Learning Outcome
-
-By completing this module, I am able to:
-
-* Serialize Python dictionaries into JSON
-* Deserialize JSON files into Python objects
-* Save and load custom Python objects using Pickle
-* Understand binary serialization
-* Read and process CSV files
-* Convert CSV data into JSON format
-* Serialize data into XML format
-* Deserialize XML data into Python dictionaries
-* Handle exceptions during file operations
-* Work with multiple serialization formats in Python
-* Understand differences between JSON, Pickle, CSV, and XML
-* Build reusable serialization functions
-* Improve Python file handling skills
-
----
-
-# 🛠️ Technologies Used
-
-* Python 3
-* JSON
-* Pickle
-* CSV
-* XML
-* ElementTree
-
----
-
-# 👨‍💻 Author
-
-Karthikeyan Marimuthu
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg

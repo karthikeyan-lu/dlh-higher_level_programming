@@ -1,73 +1,97 @@
-# Python Import & Modules
+# Python Import Modules - AI Academy (DLH)
 
-This repository contains my exercises on **Python imports, modules, command-line arguments, and basic scripts** as part of the AI Academy course at DLH.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Level](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-yellow)
 
----
-
-## 📘 Objective
-
-To practice how Python programs can use code from other files and handle dynamic input from the command line.
+This project contains Python exercises for importing functions, using modules, reading command-line arguments, and building small scripts from reusable code.
 
 ---
 
-## 🧩 Tasks Covered
+## Objective
 
-### 📦 Imports & Modules
+To understand how Python programs share and reuse code by learning:
 
-* `0-add.py` – Import and use a simple addition function
-* `1-calculation.py` – Import calculator functions and perform operations
-* `5-variable_load.py` – Import and print a variable from another file
-
----
-
-### 🖥️ Command-Line Arguments
-
-* `2-args.py` – Print the number and list of arguments
-* `3-infinite_add.py` – Add all command-line arguments
+- Importing functions from other files
+- Importing variables
+- Using command-line arguments
+- Protecting execution with `if __name__ == "__main__"`
+- Inspecting modules with `dir()`
+- Building a command-line calculator
+- Practicing constrained Python scripts
 
 ---
 
-### 🔍 Module Discovery
+## Topics Covered
 
-* `4-hidden_discovery.py` – Print names defined in a compiled module
+### Imports and Modules
+
+- Function imports
+- Variable imports
+- Calculator module usage
+- Module discovery
+
+### Command-Line Arguments
+
+- Counting arguments
+- Listing arguments
+- Summing argument values
+- Handling user-provided operations
+
+### Advanced Practice
+
+- Restricted printing
+- Bytecode-inspired logic
+- Fast alphabet output
 
 ---
 
-### ⭐ Advanced
+## Requirements
 
-* `100-my_calculator.py` – Build a calculator using imported functions
-* `101-easy_print.py` – Print text with restrictions
-* `102-magic_calculation.py` – Recreate logic from Python bytecode
-* `103-fast_alphabet.py` – Print uppercase alphabet with constraints
+- Python 3.x
+- `pycodestyle`
+- Scripts should be executable where required
+- Imported helper files should remain in the same directory
 
 ---
 
-## ⚙️ Key Concepts Used
+## Files
 
-```python
-import
-from module import function
-from module import variable
-sys.argv
-len()
-int()
-dir()
-if __name__ == "__main__"
-functions
-command-line input
+| File | Description |
+| --- | --- |
+| `0-add.py` | Defines a simple addition function |
+| `0-import_add.py` | Imports and uses the addition function |
+| `1-calculation.py` | Imports calculator functions and performs operations |
+| `2-args.py` | Prints the number and list of command-line arguments |
+| `3-infinite_add.py` | Adds all command-line arguments |
+| `4-hidden_discovery.py` | Prints names defined in a compiled module |
+| `5-variable_load.py` | Imports and prints a variable |
+| `100-my_calculator.py` | Builds a command-line calculator |
+| `101-easy_print.py` | Prints text with import and output constraints |
+| `102-magic_calculation.py` | Recreates logic from Python bytecode |
+| `103-fast_alphabet.py` | Prints the uppercase alphabet with constraints |
+| `add_0.py` | Helper module for addition |
+| `calculator_1.py` | Helper module with calculator functions |
+| `variable_load_5.py` | Helper module containing a variable |
+
+---
+
+## Usage
+
+Run an import task:
+
+```bash
+python3 0-import_add.py
+```
+
+Run the calculator:
+
+```bash
+python3 100-my_calculator.py 10 + 5
 ```
 
 ---
 
-## 🎯 Learning Outcome
+## Author
 
-By completing this module, I am able to:
-
-* Import functions and variables from other Python files
-* Prevent code from running when imported
-* Work with command-line arguments
-* Use imported functions to build small programs
-* Understand basic module discovery
-* Practice advanced Python constraints and bytecode logic
-
----
+Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg
